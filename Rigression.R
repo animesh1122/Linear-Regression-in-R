@@ -7,7 +7,6 @@ library(WVPlots)
 
 #load dataset
 
-set.seed(123)
 Data <- read.csv("D:/R/insurance.csv")
 sample_n(Data, 5)
 
