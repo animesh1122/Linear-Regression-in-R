@@ -125,7 +125,7 @@ Animesh <- data.frame(age = 30,
                   region = "northwest")
 print(paste0("Health care charges for Animesh: ", round(predict(model_1, Animesh), 2)))
 #2.
-Animesh_Patel <- data.frame(age = 30,
+Animesh_Patel <- data.frame(age = 30, 
                       bmi = 27.9,
                       children = 0,
                       smoker = "no",
