@@ -70,7 +70,7 @@ formula_0 <- as.formula("charges ~ age + sex + bmi + children + smoker + region"
 
 #Train and Test Model
 model_0 <- lm(formula_0, data = Data_train)
-summary(model_0)
+summary(model_0) 
 
 #Save the model
 r_sq_0 <- summary(model_0)$r.squared
@@ -116,7 +116,7 @@ ggplot(Data_test, aes(x = prediction, y = charges)) +
   geom_abline(color = "red") +
   ggtitle("Prediction vs. Real values")
 
-#TESTING WITH NEW DATA
+#TESTING WITH NEW DATA 
 #1.
 Animesh <- data.frame(age = 30,
                   bmi = 27.9,
