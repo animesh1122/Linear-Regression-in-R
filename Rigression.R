@@ -31,7 +31,7 @@ summary(Data)
 x <- ggplot(Data, aes(age, charges)) +
   geom_jitter(color = "blue", alpha = 0.5) +
   theme_light()
-
+ 
 y <- ggplot(Data, aes(bmi, charges)) +
   geom_jitter(color = "green", alpha = 0.5) +
   theme_light()
