@@ -5,7 +5,7 @@ library(cowplot)
 library(psych)
 library(WVPlots)
 
-#load dataset
+#load dataset 
 
 Data <- read.csv("D:/R/insurance.csv")
 sample_n(Data, 5)
