@@ -3,7 +3,7 @@ library(dplyr)
 library(Hmisc) 
 library(cowplot) 
 library(psych)
-library(WVPlots)
+library(WVPlots) 
 
 #load dataset 
 
