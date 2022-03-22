@@ -4,7 +4,7 @@ library(Hmisc)
 library(cowplot) 
 library(psych)
 library(WVPlots) 
-
+ 
 #load dataset 
 
 Data <- read.csv("D:/R/insurance.csv")
