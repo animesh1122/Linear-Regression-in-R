@@ -27,7 +27,7 @@ summary(Data)
 ##########################Plot#####################
 #1.Correlation between Charges and Age 
 #2.Correlation between Charges and BMI
-
+ 
 x <- ggplot(Data, aes(age, charges)) +
   geom_jitter(color = "blue", alpha = 0.5) +
   theme_light()
